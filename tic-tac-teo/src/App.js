@@ -24,6 +24,7 @@ class Board extends React.Component {
     return (
       <div>
         <div> Tic Tac Tee github branch tic tac</div>
+        <div> Tic Tac Tee github master </div>
         <div className="board-row">
           {this.renderSquare(0)}
           {this.renderSquare(1)}
